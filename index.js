@@ -8,6 +8,14 @@ function increment() {
     countEl.innerText = count
 }
 
+function decrease() {   
+    count -= 1
+    if (count < 0)
+    count = 0
+    countEl.innerText = count
+    
+}
+
 function save() {
      let countStr = count + " - "
     saveEl.textContent += countStr
