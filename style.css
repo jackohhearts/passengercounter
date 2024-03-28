@@ -59,6 +59,7 @@ button {
     margin-left: 15%;
     margin-right: 15%;
     box-shadow: 12px 12px 2px rgba(0, 0, 0, 0.2);
+    touch-action: pan-x pan-y;
     
     
 }
@@ -67,7 +68,3 @@ button {
     flex-direction: column;
 }
 
-:root {
-    touch-action: pan-x pan-y;
-    height: 100% 
-  }
